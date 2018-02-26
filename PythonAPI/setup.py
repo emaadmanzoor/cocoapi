@@ -14,7 +14,7 @@ ext_modules = [
         sources=['../common/maskApi.c', 'pycocotools/_mask.pyx'],
         include_dirs = [np.get_include(), '../common'],
         extra_compile_args=[], # originally was ['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
-        extra_link_args=['-L/home/ubuntu/anaconda3/lib/']
+        extra_link_args=['-L/usr/lib/x86_64-linux-gnu/']
     )
 ]
 
